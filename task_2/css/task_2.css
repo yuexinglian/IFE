@@ -1,0 +1,124 @@
+
+
+/*****主体部分*******/
+body{
+   background-color:#DDD;
+   margin:-20px 0px 0px 0px;
+   padding:0px;
+   font-family: 黑体;
+}
+/*****框架样式**************************/
+.div{
+   position:relative;
+   margin:20px;
+   background-color:white;
+   padding:20px;
+   box-shadow:2px 1px 1px #666;
+}
+/*****导航部分***********************/
+.none-list li{
+   float:left;
+   margin-left:20px;
+
+}
+.none-list{
+   list-style-type: none;
+   position:absolute;
+   margin-top:-45px;
+   right:30px;
+}
+
+.div-navigation{
+   position:relative;
+   background-color: black;
+   color:white;
+   height:50px;
+}
+/*******正文及侧边栏部分****************/
+h3{
+   color:#666;
+}
+h5{
+   color: #999;
+}
+.main-list-none{
+   list-style-type:none;
+}
+
+.p-image{
+   padding:15px;
+   border:1px solid #999;
+   width:140px;
+   font-size:12px;
+   margin:20px;
+}
+.image{
+   width:137px;
+   height:100px;
+}
+.p-image p{
+   margin-left: 36px;
+}
+.table{
+   width:100%;
+   border-collapse: collapse;
+}
+thead{
+   background: black;
+   color:white;
+   text-align: left;
+
+}
+tfoot{
+   background:#CCC;
+}
+td{
+   border:1px solid #CCC ;
+   margin:0px;
+}
+th{
+   border:1px solid #CCC ;
+}
+/******侧栏**************************/
+.befor-aside-div{
+   height: 35px;
+   width:3px;
+   position:absolute;
+   background: #CCC;
+   top:30px;
+}
+.aside-h3{
+   margin-left:20px;
+}
+.form{
+   font-size:14px;
+}
+.message{
+   float:left;
+   width:300px;
+   text-align:right;
+   height:30px;
+}
+.input{
+   margin-left: 320px;
+   height:30px;
+
+}
+.input input{
+   font:12px 黑体; 
+}
+.submit{
+   width:100%;
+   background:blue;
+   color:white;
+   height: 40px;
+   border-radius: 5px;
+   border:0px solid;
+   margin-top:80px;
+}
+.desp{
+   color:#666;
+   line-height: 30px;
+   margin-left: 320px;
+   margin-top: -10px;
+}
